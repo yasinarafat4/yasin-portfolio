@@ -94,6 +94,7 @@ main {
   font-size: 18px;
   color: #757575;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 /* about info styles */
@@ -112,4 +113,41 @@ main {
   font-weight: 700;
   font-size: 20px;
   color: #474747;
+}
+
+/* what i do styles */
+.section-title{
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.what-i-do{
+  margin-top: 130px;
+  background: #fff8f3;
+  border-radius: 10px;
+  padding: 130px 150px;
+}
+
+.skill{
+  background: #FFFFFF;
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+padding: 30px;
+}
+
+.skills-container{
+  display: flex;
+  gap: 24px;
+}
+.skill-title{
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.skill-description{
+  font-size: 16px;
+  color: #757575;
 }
